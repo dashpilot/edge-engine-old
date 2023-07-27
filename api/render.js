@@ -3,7 +3,8 @@
 import template from "./../modules/index.mjs";
 
 var data = {
-  title: "sub-template demo",
+  pretitle: "Yes it's...",
+  title: "Edge Engine",
   features: [
     "Template files are compiled into NodeJS modules and in-memory cached",
     "Partials and compiled partials",
