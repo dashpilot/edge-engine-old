@@ -8,8 +8,25 @@
     ${nav(data)}
 
     <div class="wrap">
-      <h1>${data.title}</h1>
-      <p>This template was <strong>${data.mode}</strong> for your enjoyment.</p>
+      <div class="row">
+        <div class="col-6">
+          <h4 class="mt-5">${data.pretitle}</h4>
+          <h1>${data.title}</h1>
+
+          <p>
+            Edge Engine is a simple component-based template engine that
+            compiles to ES Modules for fast rendering on the edge, server-side,
+            static or client-side.
+          </p>
+
+          <p>
+            This template was <strong>${data.mode}</strong> for your enjoyment.
+          </p>
+        </div>
+        <div class="col-6">
+          <img src="/static/astronaut.png" />
+        </div>
+      </div>
 
       <section class="mt-5">
         <h3>Features:</h3>

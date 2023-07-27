@@ -10,6 +10,10 @@ body {
     "Noto Color Emoji";
 }
 
+img {
+  max-width: 100%;
+}
+
 .wrap {
   max-width: 920px;
   margin: 0 auto;
