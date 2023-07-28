@@ -6,12 +6,11 @@ var data = {
   pretitle: "Yes it's...",
   title: "Edge Engine",
   features: [
-    "Template files are compiled into NodeJS modules and in-memory cached",
-    "Partials and compiled partials",
-    "Short-hand for <i>exists</i> statement",
-    "Short-hand for <i>non-exists or empty</i> statement",
+    "Template files are compiled into native ES Modules and in-memory cached",
+    "Supports Edge, SSR, SSG and CSR",
+    "Component Imports",
+    "Short-hand for <i>exists</i> and <i>empty</i> statements",
     "Short-hand for <i>loops</i>",
-    "Every thing you can do with Javascript",
     "Ultra small size",
   ],
 };
