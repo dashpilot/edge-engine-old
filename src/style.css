@@ -59,6 +59,30 @@ ul {
   color: var(--color1);
 }
 
+.banner {
+  background-image: url(static/moon-banner.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 15px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 60px 10px 40px 10px;
+}
+
+.banner h1,
+.banner p {
+  color: white;
+}
+
+.banner h1 {
+  margin-bottom: 0;
+}
+
+.banner p {
+  margin-top: 5px;
+}
+
 .row {
   display: flex;
 }
