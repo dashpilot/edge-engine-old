@@ -4,7 +4,7 @@ import template from "./../modules/index.mjs";
 
 var data = {
   pretitle: "Yes it's...",
-  title: "Vertigo",
+  title: "Edge Engine",
   features: [
     "Template files are compiled into native ES Modules and in-memory cached",
     "Supports Edge, SSR, SSG and CSR",

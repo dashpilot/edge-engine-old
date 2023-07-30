@@ -60,7 +60,7 @@ ul {
 }
 
 .banner {
-  background-image: url(static/moon-banner.png);
+  background-image: url(img/moon-banner.png);
   background-size: contain;
   background-repeat: no-repeat;
   border-radius: 15px;
