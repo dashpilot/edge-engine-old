@@ -1,13 +1,17 @@
-<!-- 
-import nav from "./components/nav.mjs"
-import footer from "./components/footer.mjs"
- -->
+<imports>
+import nav from "./components/nav.html"
+import footer from "./components/footer.html"
+</imports>
+
+<template>
 <!DOCTYPE html>
 <html>
   <head>
     <title>${data.title}</title>
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link rel="stylesheet" href="/static/style.css" />
+    <link rel="stylesheet" href="/style.css" />
+    <script src="/app.js"></script>
   </head>
   <body>
     ${nav(data)}
@@ -60,3 +64,4 @@ import footer from "./components/footer.mjs"
     ${footer()}
   </body>
 </html>
+</template>

@@ -1,3 +1,11 @@
+<script>
+function hello(){
+  alert('ok')
+}
+</script>
+
+
+<template>
 <div class="wrap mt-2">
   <nav>
     <div class="row">
@@ -5,7 +13,9 @@
       <div class="col-6 text-right">
         <a href="/">Static</a>
         <a href="/api/render">Edge</a>
+        <a onclick="hello()">hi there</a>
       </div>
     </div>
   </nav>
 </div>
+</template>
